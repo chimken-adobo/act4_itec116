@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "a8369e13-7d6d-4c94-b973-dec61783e30d",
+		"name": "Activity 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48814926",
+		"_collection_link": "https://blickyy213285-2421396.postman.co/workspace/0624e171-d57d-44ee-81a6-c7b72ccf849f/collection/48814926-a8369e13-7d6d-4c94-b973-dec61783e30d?action=share&source=collection_link&creator=48814926"
+	},
+	"item": [
+		{
+			"name": "Fetches the details of the weather of a selected city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=Tokyo,JP&appid=b7fb272cc28881a7c6870f8db07d66d7&units=metric",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Tokyo,JP"
+						},
+						{
+							"key": "appid",
+							"value": "b7fb272cc28881a7c6870f8db07d66d7"
+						},
+						{
+							"key": "units",
+							"value": "metric"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
